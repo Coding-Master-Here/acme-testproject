@@ -5,6 +5,8 @@ autoload :Product, File.join(MODELS_PATH, 'product')
 autoload :Basket, File.join(MODELS_PATH, 'basket')
 autoload :DeliveryCharge, File.join(MODELS_PATH, 'delivery_charge')
 autoload :Discount, File.join(MODELS_PATH, 'discount')
+autoload :ProductDiscount, File.join(MODELS_PATH, 'discount_rules', 'product_discount')
+autoload :ThresholdDiscount, File.join(MODELS_PATH, 'discount_rules', 'threshold_discount')
 autoload :PriceCalculator, File.join(MODELS_PATH, 'price_calculator')
 
 PRODUCTS = {

@@ -10,7 +10,7 @@ This project implements a shopping basket designed to handle product catalogs, d
 - **Basket Management**: Add and remove items from a shopping basket.
 - **Discounts**: Apply different types of discounts, such as product-specific discounts and threshold-based discounts.
 - **Delivery Charges**: Calculate delivery charges based on subtotal thresholds.
-- **Payment Handling:** Uses an "ints of cents" approach, similar to Stripe, for handling monetary values.
+- **Payment Handling:** Uses an **ints of cents** approach, similar to Stripe, for handling monetary values.
 - **Test Suite**: Comprehensive tests written using Minitest.
 
 ## Models Overview
@@ -83,6 +83,10 @@ Contains configuration data like product information, delivery rules, and discou
    ```bash
    git clone https://github.com/Coding-Master-Here/acme-testproject.git
    ```
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
    ```bash
    cd acme-testproject
    ```
