@@ -74,15 +74,17 @@ Contains configuration data like product information, delivery rules, and discou
 ### Prerequisites
 
 - [Docker](https://www.docker.com/get-started) should be installed on your machine.
-- Ruby should be installed (preferably using a version manager like `rbenv` or `rvm`).
+- Ruby should be installed (preferably using a version manager like `rbenv` or `rvm`.
 
 ### Setup
 
 1. **Clone the Repository**
 
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/Coding-Master-Here/acme-testproject.git
+   ```
+   ```bash
+   cd acme-testproject
    ```
 
 2. **Build docker image**
